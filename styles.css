@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+html {
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D6E1FF;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 2rem auto;
+    height: 754px;
+    border-radius: 1rem;
+}
+
+.background-img {
+    background-image: url('images/illustration-hero.svg');
+    background-position: center;
+    width: 500px;
+    height: 221px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.container-md {
+    background-color: #fff;
+    width: 500px;
+    padding-bottom: 3.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.flex-wrap-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pt-2 {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.custom-max {
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #7F88AA;
+}
+
+.btn-primary {
+    min-width: 420px;
+    padding: 20px 136px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    background-color: #382ae1;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn-gray {
+    min-width: 420px;
+    padding: 20px 136px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #fff;
+    font-weight: 600;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.change-txt {
+    color: #382AE1;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.change-text:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
